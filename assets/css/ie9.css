@@ -3,37 +3,32 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
-
 /* Loader */
-
-	body:before, body:after {
-		display: none !important;
-	}
+body:before, body:after {
+  display: none !important;
+}
 
 /* Gallery */
+.gallery:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
-	.gallery:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	.gallery article {
-		float: left;
-	}
+.gallery article {
+  float: left;
+}
 
 /* Main */
+.main.fullscreen {
+  min-height: 0;
+}
 
-	.main.fullscreen {
-		min-height: 0;
-	}
-
-	.main.style1 > .content {
-		margin: 0 auto;
-	}
+.main.style1 > .content {
+  margin: 0 auto;
+}
 
 /* Poptrox */
-
-	.poptrox-popup .loader {
-		display: none !important;
-	}
+.poptrox-popup .loader {
+  display: none !important;
+}

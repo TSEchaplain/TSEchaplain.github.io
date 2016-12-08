@@ -1,3 +1,4 @@
+/* Force SASS to recompile by editing time: 2:08 */
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -51,37 +52,37 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 
-/* Intro */
+/* What (was Intro) */
 
-	#intro {
-		background: url('images/overlay.png'), url('../../images/intro.jpg');
+	#what {
+		background: url('images/overlay.png'), url('../../images/Maple tree leaves.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* Why (was One) */
 
-	#one {
-		background: url('images/overlay.png'), url('../../images/one.jpg');
+	#why {
+		background: url('images/overlay.png'), url('../../images/3ffa3264270b83bd_640_love-300x200.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* Where (was Two) */
 
-	#two {
-		background: url('images/overlay.png'), url('../../images/two.jpg');
+	#where {
+		background: url('images/overlay.png'), url('../../images/beltline-fog.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Contact */
+/* When (was Work) */
 
-	#contact {
+	#when {
 		overflow: hidden;
 		padding-bottom: 0;
 
@@ -103,3 +104,7 @@
 			}
 		}
 	}
+  
+  /* Who (was Contact) */
+
+	
