@@ -486,7 +486,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
-  text-decoration: none;
 }
 
 h2 {
@@ -516,6 +515,7 @@ a {
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   color: #98c593;
+  text-decoration: none;
 }
 
 sub {
