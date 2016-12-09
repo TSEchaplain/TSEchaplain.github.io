@@ -17,13 +17,13 @@
 // Font.
 	$font: (
 		family:				('Source Sans Pro', 'sans-serif'),
-		weight:				300,
+		weight:				400,
 		weight-bold:		900
 	);
 
 // Palette.
 	$palette: (
-		bg:					#ffffff,
+        bg:					#ffffff,
 		bg-alt:				#f5f6f7,
 		fg:					#39454b,
 		fg-bold:			#39454b,
@@ -53,3 +53,8 @@
 			border:			rgba(185,186,187,0.2)
 		)
 	);
+
+// Translucency.
+    $trans:		    0.9;
+    $bg-trans:      rgba(#ffffff, $trans);
+    $bg-dark-trans: rgba(#39454b, $trans);

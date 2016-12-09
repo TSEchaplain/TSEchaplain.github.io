@@ -1,5 +1,5 @@
 /* Force SASS to recompile by editing time: 2:08 */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900");
 @import url("font-awesome.min.css");
 /*
 	Big Picture by Pixelarity
@@ -440,7 +440,7 @@ body.is-loading:after {
 /* Type */
 body, input, textarea, select {
   font-family: "Source Sans Pro", "sans-serif";
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18pt;
   line-height: 1.75em;
   color: #39454b;
@@ -547,8 +547,8 @@ p, ul, ol, dl, table {
 
 /* Box */
 .box {
-  background: #ffffff;
-  color: #39454b;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
   padding: 2em;
 }
 
@@ -568,6 +568,11 @@ p, ul, ol, dl, table {
     padding: 1.5em 1.25em 1.5em 1.25em;
     background-color: rgba(255, 255, 255, 0.9);
   }
+}
+
+.dark .box {
+  color: #ffffff;
+  background-color: rgba(57, 69, 75, 0.9);
 }
 
 /* Button */
@@ -1787,6 +1792,14 @@ body {
 }
 
 .main.style3 {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
   text-align: center;
   padding: 6em 0 6em 0;
 }
@@ -1981,58 +1994,60 @@ body.is-touch .main {
 
 /* What (was Intro) */
 #what {
-  background: url("images/overlay.png"), url("../../images/Maple tree leaves.jpg");
-  background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
-  background-position: top left, bottom center;
-  background-repeat: repeat, no-repeat;
+  background: url("../../images/Maple tree leaves.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 /* Why (was One) */
 #why {
-  background: url("images/overlay.png"), url("../../images/3ffa3264270b83bd_640_love-300x200.jpg");
-  background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
-  background-position: top left, center center;
+  background: url("../../images/3ffa3264270b83bd_640_love-300x200.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 /* Where (was Two) */
 #where {
-  background: url("images/overlay.png"), url("../../images/beltline-fog.jpg");
-  background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
-  background-position: top left, center center;
+  background: url("../../images/beltline-fog.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+#why .button {
+  background-image: url(images/dark-arrow.svg);
 }
 
 /* When (was Work) */
 #when {
-  overflow: hidden;
-  padding-bottom: 0;
-}
-
-#when .box {
-  -moz-transition: -moz-transform 1s ease;
-  -webkit-transition: -webkit-transform 1s ease;
-  -ms-transition: -ms-transform 1s ease;
-  transition: transform 1s ease;
-  -moz-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  position: relative;
-}
-
-#when.inactive .box {
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
-}
-
-@media screen and (max-width: 736px) {
-  #when .box {
-    padding-bottom: 2em;
-  }
+  background: url("../../images/Above blue clouds.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
 /* Who (was Contact) */
+#who {
+  background: url("../../images/Sun-dappled green trees.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+#whoMichael {
+  display: block;
+  margin: 1em auto;
+  border-radius: 50%;
+  width: 300px;
+}
+
+#who .cta {
+  margin-top: 3em;
+}

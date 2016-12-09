@@ -83,6 +83,8 @@
 		}
 
 		&.style3 {
+			@include vendor('align-items', 'center');
+			@include vendor('justify-content', 'center');
 			text-align: center;
 			padding: 6em 0 6em 0;
 

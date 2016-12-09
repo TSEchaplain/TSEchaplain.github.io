@@ -7,8 +7,8 @@
 /* Box */
 
 	.box {
-		background: _palette(bg);
-		color: _palette(fg);
+		background: $bg-trans;
+		color: black;
 		padding: 2em;
 
 		> :last-child {
@@ -28,3 +28,8 @@
 			}
 		}
 	}
+  
+  .dark .box {
+		color: _palette(dark,fg);
+        background-color: $bg-dark-trans;
+  }
