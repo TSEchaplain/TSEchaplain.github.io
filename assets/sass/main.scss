@@ -113,6 +113,11 @@
         margin: 1em auto;
         border-radius: 50%;
         width: 300px;
+
+        @include breakpoint(xsmall) {
+            width: 240px;
+        }
+
     }
 	
     #who .cta {

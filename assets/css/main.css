@@ -2048,6 +2048,12 @@ body.is-touch .main {
   width: 300px;
 }
 
+@media screen and (max-width: 480px) {
+  #whoMichael {
+    width: 240px;
+  }
+}
+
 #who .cta {
   margin-top: 3em;
 }
